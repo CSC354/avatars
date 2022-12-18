@@ -57,10 +57,6 @@ def generate_avatar(avatar_size: int, nickname: str) -> None:
 if __name__ == "__main__":
     import sys
     args = sys.argv
-    avatar_size = int(args[1])
-    nickname = args[2]
-    
-    if avatar_size % 12 != 0:
-        print('avatar size must be a multiple of 12')
-    else:    
-        generate_avatar(avatar_size, nickname)
+    avatar_size = 480
+    nickname = args[1]
+    generate_avatar(avatar_size, nickname)

@@ -1,4 +1,4 @@
-# Github avatars generator 
+# Avatars Generator 
 
 ![example1](./examples/test1.png)
 ![example2](./examples/test2.png)
@@ -7,8 +7,5 @@
 
 ## Run
 ```
-python3 gen.py [avatar_size] [nickname]
+python3 gen.py [nickname]
 ```
-
-avatar_size - number must be multiple 12 \
-nickname - string
